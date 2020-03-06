@@ -25,4 +25,11 @@ public class LeapYearsTest {
 
         assertEquals("Should return true if year is dividable by 4 but not by 100", true, learYears.isLeapYear(year));
     }
+
+    @Test
+    public void isLeapYear_should_return_false_if_year_is_not_dividable_by_4() {
+        int year = 2017;
+
+        assertEquals("Should return false if year is not dividable by 4", false, learYears.isLeapYear(year));
+    }
 }
