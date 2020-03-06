@@ -1,6 +1,6 @@
 public class LeapYears {
 
-    public Boolean isLeapYear(int year) {
+    public boolean isLeapYear(int year) {
         return year % 400 == 0;
     }
 }
